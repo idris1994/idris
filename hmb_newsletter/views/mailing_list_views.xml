@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="mailing_list_view_form" model="ir.ui.view">
+        <field name="name">mailing.list.form.inherit.company</field>
+        <field name="model">mailing.list</field>
+        <field name="inherit_id" ref="mass_mailing.mailing_list_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <label string="Company : " for="company_id"/>
+                <field name="company_id"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
