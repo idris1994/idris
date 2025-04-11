@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_dynamic_button" name="Text">
+        <div class="s_dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+            <a href="/sub_path/#list_id#" style="border-radius: 20px; padding: 10px; background-color: orange; padding-left: 25px !important; padding-right: 25px !important">Message</a>
+        </div>
+    </template>
+</odoo>

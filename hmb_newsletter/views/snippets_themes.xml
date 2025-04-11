@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="email_designer_snippets" inherit_id="mass_mailing.email_designer_snippets">
+            <xpath expr="//div[@id='email_designer_body_elements']" position="inside">
+                <t t-snippet="hmb_newsletter.dynamic_button_plan_design_date" string="Plan jouw Design Date" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_ontdek_barn" string="Ontdek Barn" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_ontdek_park" string="Ontdek Park" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_ontdek_loft" string="Ontdek Loft" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_ontdek_home_stories" string="Ontdek onze Home Stories" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_bekijk_collectie" string="Bekijk onze collectie" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_onze_werkwijze" string="Onze werkwijze" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+                <t t-snippet="hmb_newsletter.dynamic_button_style_guide" string="Style Guide" t-thumbnail="/mass_mailing/static/src/img/snippets_thumbs/s_media_list.svg"/>
+            </xpath>
+        </template>
+
+        <template id="dynamic_button_plan_design_date" name="Plan jouw Design Date">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="s_custom_snippet btn btn-custom text-o-color-4" href="/bookdesigndate"  style="border-width: 1px; border-style: solid; background-color: rgb(199, 85, 81);">
+                    Plan jouw Design Date®
+                </a>
+            </div>
+        </template>
+        <template id="dynamic_button_ontdek_barn" name="Ontdek Barn">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/home-stories/barn"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Ontdek Barn
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_ontdek_park" name="Ontdek Park">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/home-stories/park"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Ontdek Park
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_ontdek_loft" name="Ontdek Loft">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/home-stories/loft"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Ontdek Loft
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_ontdek_home_stories" name="Ontdek onze Home Stories">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/home-stories"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Ontdek onze Home Stories
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_bekijk_collectie" name="Bekijk onze collectie">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/hulp-bij-inrichten"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Bekijk onze collectie
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_onze_werkwijze" name="Onze werkwijze">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/interieuradvies-en-realisatie"  style="border-width: 1px; border-style: solid; background-color: #343A40; color: #FFFFFF;">
+                    Onze werkwijze
+                </a>
+            </div>
+        </template>
+
+        <template id="dynamic_button_style_guide" name="Style Guide">
+            <div class="dynamic_button o_mail_snippet_general pt40 pb40" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-custom" href="/style-guide"  style="border-width: 1px; border-style: solid; background-color: #84754d; color: #FFFFFF;">
+                    Style Guide
+                </a>
+            </div>
+        </template>
+    </data>
+</odoo>
